@@ -1,0 +1,42 @@
+/* general */
+body {
+    color: #333;
+    font-size: 16px;
+
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+/* container */
+.container {
+    width: 100%;
+    max-width: 800px;
+
+    margin: 0 auto;
+}
+
+/* Table */
+.table {
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+.table td {
+    border: #333 solid 2px;
+}
+
+thead td {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
